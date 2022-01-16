@@ -2,7 +2,7 @@
 <manifest>
 
  <!-- Remote Repos -->
- <remote name="arrow"
+ <remote name="Arrow"
          fetch="https://github.com/ArrowOS" />
  
  <!-- Trees -->
