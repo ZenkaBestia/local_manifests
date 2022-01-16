@@ -4,6 +4,8 @@
  <!-- Remote Repos -->
  <remote name="Arrow"
          fetch="https://github.com/ArrowOS" />
+ <remote name="Nadlab"
+         fetch="https://gitlab.com/NusantaraProject" />
  
  <!-- Trees -->
  <project path="device/xiaomi/lmi" name="ZenkaBestia/device_xiaomi_lmi.git" remote="github" revision="12-syb" />
@@ -21,6 +23,6 @@
  <!-- Additionals -->
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-19.0" /> 
  <project path="system/sepolicy" name="PixelExperience/system_sepolicy" remote="github" revision="twelve" />
- <project path="vendor/google/gms" name="NusantaraProject/vendor_google_gms" remote="gitlab" revision="12" />
+ <project path="vendor/google/gms" name="vendor_google_gms" remote="Nadlab" revision="12" />
 
 </manifest>
