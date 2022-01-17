@@ -7,6 +7,9 @@
  <remote name="Nadlab"
          fetch="https://gitlab.com/NusantaraProject" />
  
+ <!-- Remove -->
+ <remove-project name="platform_system_sepolicy" />
+
  <!-- Trees -->
  <project path="device/xiaomi/lmi" name="ZenkaBestia/device_xiaomi_lmi.git" remote="github" revision="12-syb" />
  <project path="vendor/xiaomi/lmi" name="ZenkaBestia/vendor_xiaomi_lmi.git" remote="github" revision="12" />
