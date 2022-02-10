@@ -5,6 +5,5 @@
  <project path="device/xiaomi/lmi" name="ZenkaBestia/device_xiaomi_lmi.git" remote="github" revision="12-xdsp" />
  <project path="vendor/xiaomi/lmi" name="ZenkaBestia/vendor_xiaomi_lmi.git" remote="github" revision="12" />
  <project path="kernel/xiaomi/lmi" name="NusantaraROM-Devices/kernel_xiaomi_lmi" remote="github" revision="12-kona" />
- <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-19.0" /> 
 
 </manifest>
