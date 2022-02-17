@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!-- Remote Repos -->
+ <remote name="Zenlab"
+         fetch="https://gitlab.com/ZenkaBestia" />
+
  <!-- Trees -->
  <project path="device/xiaomi/lmi" name="ZenkaBestia/device_xiaomi_lmi.git" remote="github" revision="12-xdsp" />
  <project path="vendor/xiaomi/lmi" name="ZenkaBestia/vendor_xiaomi_lmi.git" remote="github" revision="12" />
  <project path="kernel/xiaomi/lmi" name="NusantaraROM-Devices/kernel_xiaomi_lmi" remote="github" revision="12-kona" />
+
+ <!-- Remove -->
+ <remove-project name="xd_vendor_google_gms" />
+
+ <!-- Additionals -->
+ <project path="vendor/google/gms" name="xd_vendor_google_gms" remote="Zenlab" revision="twelve" clone-depth="1" />
 
 </manifest>
