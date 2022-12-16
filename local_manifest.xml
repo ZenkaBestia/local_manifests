@@ -2,9 +2,12 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/lmi" name="ZenkaBestia/device_xiaomi_lmi.git" remote="github" revision="12-pixelos" />
- <project path="vendor/xiaomi/lmi" name="ZenkaBestia/vendor_xiaomi_lmi.git" remote="github" revision="12" />
- <project path="kernel/xiaomi/lmi" name="NusantaraROM-Devices/kernel_xiaomi_lmi" remote="github" revision="12" />
- <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-19.0" /> 
+ <project path="device/xiaomi/vili" name="ZenkaBestia/device_xiaomi_vili.git" remote="github" revision="thirteen-pixelos" />
+ <project path="vendor/xiaomi/vili" name="ZenkaBestia/vendor_xiaomi_vili.git" remote="github" revision="thirteen-pixelos" />
+ <project path="device/xiaomi/sm8350-common" name="ZenkaBestia/device_xiaomi_sm8350-common.git" remote="github" revision="thirteen-pixelos" />
+ <project path="vendor/xiaomi/sm8350-common" name="ZenkaBestia/vendor_xiaomi_sm8350-common.git" remote="github" revision="thirteen-pixelos" />
+ <project path="vendor/vili-firmware" name="ZenkaBestia/vendor_vili-firmware.git" remote="gitlab" revision="12.1-evox" />
+ <project path="kernel/xiaomi/sm8350" name="ZenkaBestia/kernel_xiaomi_sm8350" remote="github" revision="ReBorn-Stable" />
+ <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" remote="github" revision="thirteen" /> 
 
 </manifest>
