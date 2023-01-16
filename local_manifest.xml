@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!-- Remotes -->
+ <remote name="clang" fetch="https://gitlab.com/Amritorock" /> 
+
  <!-- Trees -->
  <project path="device/xiaomi/lmi" name="ZenkaBestia/device_xiaomi_lmi.git" remote="github" revision="13-evox" />
  <project path="vendor/xiaomi/lmi" name="ProjectElixir-Devices/vendor_xiaomi_lmi" remote="github" revision="Tiramisu" />
  <project path="kernel/xiaomi/lmi" name="ProjectElixir-Devices/kernel_xiaomi_lmi" remote="github" revision="zen_plus-13" />
+
+ <!-- Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
